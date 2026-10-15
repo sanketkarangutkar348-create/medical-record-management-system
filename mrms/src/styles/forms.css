@@ -1,0 +1,4 @@
+.field{display:flex;flex-direction:column;gap:.25rem;margin-bottom:.9rem}label{font-weight:600;font-size:.9rem}
+input,select,textarea{padding:.6rem;border:1px solid #9fb0c2;border-radius:8px;font:inherit;background:#fff}input[aria-invalid=true]{border-color:var(--err)}
+.err{color:var(--err)}.form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0 1rem;align-items:end}.span{grid-column:1/-1}
+.search{min-width:260px}@media(max-width:600px){.search{min-width:0;width:100%}}
